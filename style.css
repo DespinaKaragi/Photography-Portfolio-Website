@@ -1,0 +1,520 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body
+{
+    font-family: 'Amatic SC', cursive !important;
+    font-size:40px !important;
+}
+
+
+.fade-down-menu
+{
+    
+    animation: fade-down 1s ;
+}
+
+
+#nav-bar
+{
+    background-color: #f5f5ef !important; 
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background-color: #f5f5ef;
+    padding: 0 !important;
+}
+
+.navbar-brand img
+{
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li>a
+{
+    color: #725347 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler-icon
+{
+    color: #725347 !important;
+}
+
+/*-------------------Banner section----------*/
+
+#banner
+{
+    background-color: #f5f5ef;
+    
+}
+
+.promo-title
+{
+    
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.promo-title1
+{
+    font-size: 100px;
+}
+
+.img-desc
+{
+    float: inline-end !important;
+    height:791px ;
+    width: 528px;
+    margin-top: 50px;
+    
+}
+
+.fade-in-image 
+{ 
+    animation: fade-up 1s ;
+}
+
+
+
+
+.promo-text
+{
+    color: #725347;
+    
+}
+.leaf-icon
+{
+    
+    width: 55px;
+    height: 55px;
+    float: inline-start;
+
+}
+
+
+.bottom-img
+{
+    
+    height: 300px;
+    width: 100%;
+}
+
+#get-in-touch
+{
+    width: 200px;
+    border-radius: 0;
+    text-align: center;
+    border-width: 2.5px;
+    padding: 0%;
+    border-color: #725347;
+    color: #725347;
+    
+}
+
+.btn
+{
+    margin-top: 100px;
+    font-size: 30px !important;
+    
+}
+
+#get-in-touch:hover
+{
+    background-color: #725347;
+    color: #f5f5ef;
+    
+}
+
+/*-------------------Bio section----------*/
+
+
+#Bio
+{
+    background-color: white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.Bio-img
+{
+    float: inline-end !important;
+    height:791px ;
+    width: 528px;
+    margin-top: 50px;
+
+}
+
+
+.Bio-title
+{
+    
+    color: #725347;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.Bio-title1
+{
+    
+    color: #725347;
+    font-size: 70px;
+    font-weight: 800 !important;
+}
+
+
+.Bio-text
+{
+    
+    
+    margin-top: 50px;
+   
+}
+
+.Telos-Bio
+{
+  
+    margin-left: 150px;
+    height: 98px;
+    width: 138px;
+    
+
+}
+
+
+
+.fade-up-image
+{ 
+    animation: fadeIn 2s ;
+}
+
+
+/*-------------------Portfolio----------*/
+
+
+
+#PORTFOLIO1
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f5f5ef;
+}
+#Portfolio
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f5f5ef;
+}
+
+
+
+
+#carouselSlides
+{
+    float: inline-start !important;
+    height:791px ;
+    width: 528px;
+    margin-top: 50px;
+}
+
+
+.Portfolio-title
+{
+    color: #725347;
+    float: right;
+    margin-top: 130px;
+}
+
+.Portfolio-title1
+{
+    font-size: 70px;
+    margin-bottom: -20px;
+    
+}
+
+.Portfolio-title2
+{
+    font-size: 70px;
+    font-weight: 800 !important;
+    
+}
+
+.Portfolio-text1
+{
+    margin-bottom: -20px;
+    color: black !important;
+}
+
+.Portfolio-text2
+{
+    margin-bottom: -20px;
+    color: black !important;
+}
+
+.Portfolio-text3
+{
+    margin-bottom: -20px;
+    color: black !important;
+}
+
+
+#Portoflio-2
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f5f5ef;
+}
+
+#carouselSlides2
+{
+    float: inline-end !important;
+    height:791px ;
+    width: 528px;
+    
+    margin-bottom: 50px;
+}
+
+
+.Portfolio-page2-title
+{
+    color: #725347;
+    float: left;
+    margin-top: 100px;
+}
+
+.Portfolio-page2-title1
+{
+    font-size: 70px;
+    margin-bottom: -20px;
+    
+}
+
+.Portfolio-page2-title2
+{
+    font-size: 70px;
+    font-weight: 800 !important;
+    
+}
+
+.Portfolio-page2-text1
+{
+    margin-bottom: -20px;
+    color: black !important;
+}
+
+.Portfolio-page2-text2
+{
+    margin-bottom: -20px;
+    color: black !important;
+}
+
+.Portfolio-page2-text3
+{
+    margin-bottom: -20px;
+    color: black !important;
+}
+
+
+
+/*-------------------Work experience----------*/
+
+.Work-title h2
+{
+    font-size: 100px;
+    color: #725347;
+    font-weight: 500 !important;
+}
+
+.lead{
+    font-size: 20px !important;
+    color: #725347;
+    font-weight: 300 !important;
+}
+
+#navigation {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  #navigation ul {
+    list-style: none;
+    
+  }
+
+  #navigation li {
+    margin-right: 10px;
+    display: inline-block;
+    
+    
+  }
+
+  #navigation img {
+    width: 250px;
+    
+    
+    
+  }
+/*------Work examples-------*/
+
+#work-experience-portfolio{
+   
+    margin-bottom: 50px;
+    background-color: #f5f5ef !important;
+}
+
+.container-fluid-1{
+    background-color: #f5f5ef !important;
+}
+
+.Work-portfolio-title h2{
+    font-size: 100px !important;
+    color: #725347;
+    font-weight: 500 !important;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.column-1 {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+  
+  .column-1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+
+
+  .column-1 img:hover {
+    filter: grayscale(0);
+  }
+
+ /*----------Social Media---------*/
+
+ .Social-Media-Title h6{
+    font-size: 100px !important;
+    color: #725347;
+    font-weight: 500 !important;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+ }
+ 
+ .Social-Media-Icons img
+ {
+    width: 100px;
+    
+ }
+
+
+/*---------Contact-Form-------*/
+
+
+#Send
+{
+    width: 200px;
+    border-radius: 0;
+    text-align: center;
+    border-width: 2.5px;
+    padding: 0%;
+    border-color: #725347;
+    color: #725347;
+    
+}
+
+.btn
+{
+    margin-top: 100px;
+    font-size: 40px !important;
+    
+}
+
+#Send:hover
+{
+    background-color: #725347;
+    color: #f5f5ef;
+    
+}
+
+.FORMARA{
+    font-size: 100px !important;
+    color: #725347;
+}
+
+.form-label{
+    font-size: 80px !important;
+    color: #725347
+}
+
+.ENDING {
+    height: 300px;
+    width: 100%;
+}
+
+/*---------Footer-------*/
+#footer {
+    background-color: #f5f4ef;
+    text-align: center;
+    animation: fadeIn 2s ;
+
+}
+
+
+
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes fade-down {
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+  }
+
+
+  @keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+  }
